@@ -3,7 +3,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean class="com.spring.Student" name="student1">
+    <bean class="com.spring.premitive.Student" name="student1">
         <property name="sId">
             <value>1</value>
         </property>
@@ -11,7 +11,7 @@
         <property name="sEmail" value="Alice@test.com"/>
     </bean>
 
-    <bean class="com.spring.Student" name="student2">
+    <bean class="com.spring.premitive.Student" name="student2">
         <property name="sId" value="2"/>
         <property name="sName" value="Martin"/>
         <property name="sEmail" value="Martin@test.com"/>

@@ -1,4 +1,4 @@
-package com.spring;
+package com.spring.premitive;
 
 public class Student {
   private String sId;

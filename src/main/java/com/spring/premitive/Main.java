@@ -1,5 +1,6 @@
-package com.spring;
+package com.spring.premitive;
 
+import com.spring.premitive.Student;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
