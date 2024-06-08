@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class="com.spring.ci.Certificate" name="cert">
+        <constructor-arg value="AZ900"/>
+    </bean>
+
+    <bean class="com.spring.ci.Person" name="personA">
+        <constructor-arg>
+            <value>Dipanjan</value>
+        </constructor-arg>
+        <constructor-arg value="101" type="int"/>
+        <constructor-arg ref="cert" />
+    </bean>
+
+    <bean class="com.spring.ci.ambuguity.Addition" name="addition">
+        <constructor-arg value="12"/>
+        <constructor-arg value="11"/>
+    </bean>
+
+</beans>
