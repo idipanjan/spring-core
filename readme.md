@@ -88,4 +88,17 @@ There are 3 ways to configure bean lifecylce
             <version>1.3.2</version>
         </dependency>
 
-   
+
+
+## Autowiring
+Feature of Spring container in which spring container inject the dependencies automatically
+Autowiring can't be used with primitive data types. It only works with reference types
+
+Types of Autowiring
+
+1.XML (No, byName, byType, constructor, autodetect)
+
+2.Annotation (@Autowired)
+
+    @Autowired identity beans by class Type
+    @Qualifier(String beanName) is used with @Autowired annotation to identify the bean by Name
